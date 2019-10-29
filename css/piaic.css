@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: 'Montserrat-SemiBoldItalic';
+    src: url('./fonts/Montserrat/Montserrat-SemiBoldItalic.ttf');}
+
+body{font-family: 'Montserrat-SemiBoldItalic', Georgia, 'Times New Roman', Times, serif;
+font-size: 18px;
+line-height: 2;margin:auto;
+max-width: 900px;
+padding: 2em 2em 4em;}
+
+p.two{font-size: 12px;
+text-align: start;
+line-height: 0.1mm;}
+
+p.three{font-size: 12px;
+    text-align: center;}
+
+h2.one {text-shadow: 2px 2px 7px #666666;
+font-size: 27px;
+line-height: 40px;}
+.bold{font-weight: bold;}
+
+.italic{font-style: italic;}
+
+h2.two::first-letter {
+    font-size: 200%;}
+
+ul{line-height: 3em;}
+
+p.one {text-align: center;}
